@@ -12,7 +12,7 @@ int main()
 	scanf("%s",m_file);
 	fp=fopen(m_file,"rb");
 	fp1=fopen("ciphertext.txt","wb");
-
+	getchar();
 	printf("Enter a key string of 16 character:\n");
 	
 	for(i=0;i<16;i++)
